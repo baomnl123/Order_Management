@@ -235,7 +235,7 @@ public class OrderManagement implements OrderInterface {
         if (OrderList.isEmpty()) {
             System.out.println("Product list is empty!");
         } else {
-            String id = Performance.getID("customer", "(CXXX)", "D\\d{3}");
+            String id = Performance.getID("customer", "(CXXX)", "C\\d{3}");
             printHeader();
             Collections.sort(OrderList);
             for (Order x : OrderList) {
@@ -250,7 +250,7 @@ public class OrderManagement implements OrderInterface {
         if (OrderList.isEmpty()) {
             System.out.println("Product list is empty!");
         } else {
-            String id = Performance.getID("customer", "(CXXX)", "D\\d{3}");
+            String id = Performance.getID("customer", "(CXXX)", "C\\d{3}");
             printHeader();
             Collections.sort(OrderList);
             for (Order x : OrderList) {

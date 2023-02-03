@@ -59,7 +59,6 @@ public class CustomerManagement implements CustomerInterface {
     public void deleteCustomer() {
         String id, choice;
         Customer check;
-        Customer x = new Customer();
 
         id = Performance.getID("customer", "(CXXX)", "C\\d{3}");
         check = searchCustomerByID(id);
@@ -69,7 +68,7 @@ public class CustomerManagement implements CustomerInterface {
         } else {
             System.out.println("Here is the customer before deleted");
             printHeader();
-            x.showCustomer();
+            check.showCustomer();
 
             do {
                 System.out.print("Do you want to delete customer? [Y/N]: ");
@@ -86,14 +85,14 @@ public class CustomerManagement implements CustomerInterface {
     }
 
     public void searchCustomer() {
-        Customer x = null;
+        Customer check;
 
         System.out.print("Enter customer's ID: ");
         String enterID = Performance.getID("customer", "(CXXX)", "C\\d{3}");
-        x = searchCustomerByID(enterID);
+        check = searchCustomerByID(enterID);
 
         printHeader();
-        x.showCustomer();
+        check.showCustomer();
     }
 
     public static Customer searchCustomerByID(String id) {

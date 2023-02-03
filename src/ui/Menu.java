@@ -246,6 +246,7 @@ public class Menu {
                 adminMenuAction();
                 break;
         }
+        adminMenuAction();
     }
 
     private void deleteAction() {
@@ -270,6 +271,7 @@ public class Menu {
                 adminMenuAction();
                 break;
         }
+        adminMenuAction();
     }
 
     private void searchAction() {
@@ -294,6 +296,7 @@ public class Menu {
                 adminMenuAction();
                 break;
         }
+        adminMenuAction();
     }
 
     private void updatingAction() {
@@ -314,6 +317,7 @@ public class Menu {
                 adminMenuAction();
                 break;
         }
+        adminMenuAction();
     }
 
     private void updateCustomer() {
@@ -334,6 +338,7 @@ public class Menu {
                 updatingAction();
                 break;
         }
+        updatingAction();
     }
 
     private void updateOrder() {
@@ -354,6 +359,7 @@ public class Menu {
                 updatingAction();
                 break;
         }
+        updatingAction();
     }
 
     private void updateProduct() {
@@ -374,6 +380,7 @@ public class Menu {
                 updatingAction();
                 break;
         }
+        updatingAction();
     }
 
     private void printAction() {
@@ -402,6 +409,7 @@ public class Menu {
                 adminMenuAction();
                 break;
         }
+        adminMenuAction();
     }
 
     private void customerMenu() {
