@@ -1,0 +1,3 @@
+P001;bodywash;10;USA;300
+P002;shampo;3;Japan;200
+P003;toothpaste;5;Thailand;400
